@@ -23,5 +23,7 @@ function talk3(greeting, farewell, ...names) {
     })
 } 
 
+var arr = ['hello', 'goodbye']
 
 talk3('hello', 'goodbye', ['bill', 'joe', 'morty']);          
+talk3(...arr, 'bill', 'joe', 'morty')
