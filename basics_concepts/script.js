@@ -1,16 +1,19 @@
 var fs = require('fs') 
 
 /*var file = fs.readFileSync('./script.js') 
-console.log(file.toString()) 
+    console.log(file.toString()) 
 */
 
-fs.readFile('./script', function(err, data) {
+fs.readFile('./script.js', function(err, data) {
     console.log(3)
+    
     // handle err case
+
     if(err) {
         console.log(err)
         return
     }
+
     console.log(data.toString()) 
 })
 console.log(1)
