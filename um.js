@@ -20,3 +20,12 @@ function titleCase(str) {
 }
 
 console.log(titleCase('mephis'))
+
+const people = ['Osa', 'Rauel', 'Giogri', 'Ricukookah', 'Naamu']
+const excitedPeople = []
+
+for (let i = 0; i < people.length; i++) {
+	excitedPeople[i] = people[i] + '!'
+}
+
+console.log(excitedPeople)
